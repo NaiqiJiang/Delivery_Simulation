@@ -1,0 +1,451 @@
+[
+  {
+    "command": "CreateEntity",
+    "params": {
+      "type": "drone",
+      "name": "Drone",
+      "mesh": "assets/model/drone.glb",
+      "position": [498.292, 270, -228.623],
+      "scale": [0.1, 0.1, 0.1],
+      "rotation": [0, 0, 0, 0],
+      "direction": [1,0,0],
+      "speed": 30.0,
+      "radius": 1.0,
+      "start": 2.0,
+      "duration": 2.0,
+      "offset": [0, 0.6, 0]
+    }
+  },
+  {
+    "command": "CreateEntity",
+    "params": {
+      "type": "human",
+      "name": "Human-OG",
+      "mesh": "assets/model/human.glb",
+      "position": [498.292, 270, -228.623],
+      "scale": [0.005, 0.005, 0.005],
+      "rotation": [0, 0, 0, 0],
+      "direction": [1,0,0],
+      "speed": 10.0,
+      "radius": 1.0,
+      "start": 2.0,
+      "duration": 2.0,
+      "offset": [0, -0.5, 0]
+  }
+  },
+  {
+    "command": "CreateEntity",
+    "params": {
+      "type": "helicopter",
+      "name": "Helicopter",
+      "mesh": "assets/model/helicopter.glb",
+      "position": [498.292, 550, -228.623],
+      "scale": [0.025, 0.025, 0.025],
+      "rotation": [0, 0, 0, 0],
+      "direction": [1,0,0],
+      "speed": 50.0,
+      "offset": [0, 1.5, 0]
+    }
+  },
+  {
+    "command": "SetScene",
+    "params": {
+      "type": "scene",
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0,
+      "mesh": "assets/model/umn.obj",
+      "texture": "assets/texture/umn.png",
+      "position": [-1.5,-13,-1.5],
+      "scale": [0.05,0.05,0.05]
+    }
+  },
+  {
+    "command": "AddMesh",
+    "params": {
+      "type": "route",
+      "mesh": "assets/model/routes.obj",
+      "position": [-0.0,-12.5,-0.0],
+      "scale": [0.0705,0.05,0.0705],
+      "color": "0xff00e1"
+    }
+  },
+  {
+    "command": "CreateEntity",
+    "params": {
+      "type": "duck",
+      "name": "Duck",
+      "mesh": "assets/model/duck.glb",
+      "position": [498.292, 270, -228.623],
+      "scale": [0.10, 0.10, 0.10],
+      "rotation": [0, 0, 0, 0],
+      "direction": [1,0,0],
+      "speed": 50.0,
+      "offset": [0, -0.5, 0]
+    }
+  },
+  {
+    "command": "CreateEntity",
+    "params": {
+      "type": "dragon",
+      "name": "Dragon",
+      "mesh": "assets/model/dragon.glb",
+      "position": [498.292, 270, -228.623],
+      "scale": [0.10, 0.10, 0.10],
+      "rotation": [0, 0, 0, 0],
+      "direction": [1,0,0],
+      "speed": 60.0,
+      "offset": [0, 1.5, 0]
+    }
+  },
+  {
+    "command": "CreateEntity",
+    "params": {
+      "type": "charger",
+      "name": "charger_01",
+      "mesh": "assets/model/s_charger.glb",
+      "position": [498.292, 270, -228.623],
+      "scale": [1, 1, 1],
+      "rotation": [0, 0, 0, 0],
+      "direction": [1,0,0],
+      "speed": 0.0,
+      "offset": [0, -0.9, 0]
+    }
+  },
+  {
+    "command": "CreateEntity",
+    "params": {
+      "type": "charger",
+      "name": "charger_02",
+      "mesh": "assets/model/s_charger.glb",
+      "position": [-698.510,254.664,13.222],
+      "scale": [1, 1, 1],
+      "rotation": [0, 0, 0, 0],
+      "direction": [1,0,0],
+      "speed": 0.0,
+      "offset": [0, -0.5, 0]
+    }
+  },
+  {
+    "command": "CreateEntity",
+    "params": {
+      "type": "charger",
+      "name": "charger_03",
+      "mesh": "assets/model/s_charger.glb",
+      "position": [-282.063,254.664,-95.990],
+      "scale": [1, 1, 1],
+      "rotation": [0, 0, 0, 0],
+      "direction": [1,0,0],
+      "speed": 0.0,
+      "offset": [0, -0.15, 0]
+    }
+  },
+  {
+    "command": "CreateEntity",
+    "params": {
+      "type": "charger",
+      "name": "charger_04",
+      "mesh": "assets/model/s_charger.glb",
+      "position": [143.436,254.664,-107.486],
+      "scale": [1, 1, 1],
+      "rotation": [0, 0, 0, 0],
+      "direction": [1,0,0],
+      "speed": 0.0,
+      "offset": [0, 0.09, 0]
+    }
+  },
+  {
+    "command": "CreateEntity",
+    "params": {
+      "type": "charger",
+      "name": "charger_05",
+      "mesh": "assets/model/s_charger.glb",
+      "position": [-23.485,254.664,-93.116],
+      "scale": [1, 1, 1],
+      "rotation": [0, 0, 0, 0],
+      "direction": [1,0,0],
+      "speed": 0.0,
+      "offset": [0, 0.2, 0]
+    }
+  },
+  {
+    "command": "CreateEntity",
+    "params": {
+      "type": "charger",
+      "name": "charger_06",
+      "mesh": "assets/model/s_charger.glb",
+      "position": [-255.850,254.664,-236.818],
+      "scale": [1, 1, 1],
+      "rotation": [0, 0, 0, 0],
+      "direction": [1,0,0],
+      "speed": 0.0,
+      "offset": [0, 0.07, 0]
+    }
+  },
+  {
+    "command": "CreateEntity",
+    "params": {
+      "type": "charger",
+      "name": "charger_07",
+      "mesh": "assets/model/s_charger.glb",
+      "position": [-22.485,254.664,-228.195],
+      "scale": [1, 1, 1],
+      "rotation": [0, 0, 0, 0],
+      "direction": [1,0,0],
+      "speed": 0.0,
+      "offset": [0, 0.4, 0]
+    }
+  },
+  {
+    "command": "CreateEntity",
+    "params": {
+      "type": "charger",
+      "name": "charger_08",
+      "mesh": "assets/model/s_charger.glb",
+      "position": [264.146,254.664,-219.573],
+      "scale": [1, 1, 1],
+      "rotation": [0, 0, 0, 0],
+      "direction": [1,0,0],
+      "speed": 0.0,
+      "offset": [0, 0.07, 0]
+    }
+  },
+  {
+    "command": "CreateEntity",
+    "params": {
+      "type": "charger",
+      "name": "charger_09",
+      "mesh": "assets/model/s_charger.glb",
+      "position": [-309.223,254.664,85.073],
+      "scale": [1, 1, 1],
+      "rotation": [0, 0, 0, 0],
+      "direction": [1,0,0],
+      "speed": 0.0,
+      "offset": [0, -1.15, 0]
+    }
+  },
+  {
+    "command": "CreateEntity",
+    "params": {
+      "type": "charger",
+      "name": "charger_10",
+      "mesh": "assets/model/s_charger.glb",
+      "position": [113.259,254.664,217.279],
+      "scale": [1, 1, 1],
+      "rotation": [0, 0, 0, 0],
+      "direction": [1,0,0],
+      "speed": 0.0,
+      "offset": [0, -0.02, 0]
+    }
+  },
+  {
+    "command": "CreateEntity",
+    "params": {
+      "type": "charger",
+      "name": "charger_11",
+      "mesh": "assets/model/s_charger.glb",
+      "position": [390.891,254.664,277.633],
+      "scale": [1, 1, 1],
+      "rotation": [0, 0, 0, 0],
+      "direction": [1,0,0],
+      "speed": 0.0,
+      "offset": [0, -0.08, 0]
+    }
+  },
+  {
+    "command": "CreateEntity",
+    "params": {
+      "type": "charger",
+      "name": "charger_12",
+      "mesh": "assets/model/s_charger.glb",
+      "position": [-918.805,254.664,47.711],
+      "scale": [1, 1, 1],
+      "rotation": [0, 0, 0, 0],
+      "direction": [1,0,0],
+      "speed": 0.0,
+      "offset": [0, -0.02, 0]
+    }
+  },
+  {
+    "command": "CreateEntity",
+    "params": {
+      "type": "charger",
+      "name": "charger_13",
+      "mesh": "assets/model/s_charger.glb",
+      "position": [-903.716,254.664,-170.715],
+      "scale": [1, 1, 1],
+      "rotation": [0, 0, 0, 0],
+      "direction": [1,0,0],
+      "speed": 0.0,
+      "offset": [0, -0.14, 0]
+    }
+  },
+  {
+    "command": "CreateEntity",
+    "params": {
+      "type": "charger",
+      "name": "charger_14",
+      "mesh": "assets/model/s_charger.glb",
+      "position": [-939.929,254.664,314.996],
+      "scale": [1, 1, 1],
+      "rotation": [0, 0, 0, 0],
+      "direction": [1,0,0],
+      "speed": 0.0,
+      "offset": [0, -0.02, 0]
+    }
+  },
+  {
+    "command": "CreateEntity",
+    "params": {
+      "type": "charger",
+      "name": "charger_15",
+      "mesh": "assets/model/s_charger.glb",
+      "position": [-816.202,254.664,562.163],
+      "scale": [1, 1, 1],
+      "rotation": [0, 0, 0, 0],
+      "direction": [1,0,0],
+      "speed": 0.0,
+      "offset": [0, -0.02, 0]
+    }
+  },
+  {
+    "command": "CreateEntity",
+    "params": {
+      "type": "charger",
+      "name": "charger_16",
+      "mesh": "assets/model/s_charger.glb",
+      "position": [-656.262,254.664,309.248],
+      "scale": [1, 1, 1],
+      "rotation": [0, 0, 0, 0],
+      "direction": [1,0,0],
+      "speed": 0.0,
+      "offset": [0, -0.22, 0]
+    }
+  },
+  {
+    "command": "CreateEntity",
+    "params": {
+      "type": "charger",
+      "name": "charger_17",
+      "mesh": "assets/model/s_charger.glb",
+      "position": [-562.712,254.664,579.407],
+      "scale": [1, 1, 1],
+      "rotation": [0, 0, 0, 0],
+      "direction": [1,0,0],
+      "speed": 0.0,
+      "offset": [0, 0.07, 0]
+    }
+  },
+  {
+    "command": "CreateEntity",
+    "params": {
+      "type": "charger",
+      "name": "charger_18",
+      "mesh": "assets/model/s_charger.glb",
+      "position": [-1063.656,254.664,562.163],
+      "scale": [1, 1, 1],
+      "rotation": [0, 0, 0, 0],
+      "direction": [1,0,0],
+      "speed": 0.0,
+      "offset": [0, 0.05, 0]
+    }
+  },
+  {
+    "command": "CreateEntity",
+    "params": {
+      "type": "charger",
+      "name": "charger_19",
+      "mesh": "assets/model/s_charger.glb",
+      "position": [-1244.720,254.664,214.405],
+      "scale": [1, 1, 1],
+      "rotation": [0, 0, 0, 0],
+      "direction": [1,0,0],
+      "speed": 0.0,
+      "offset": [0, -0.04, 0]
+    }
+  },
+  {
+    "command": "CreateEntity",
+    "params": {
+      "type": "charger",
+      "name": "charger_20",
+      "mesh": "assets/model/s_charger.glb",
+      "position": [37.816,254.664,-472.488],
+      "scale": [1, 1, 1],
+      "rotation": [0, 0, 0, 0],
+      "direction": [1,0,0],
+      "speed": 0.0,
+      "offset": [0, 0.02, 0]
+    }
+  },
+  {
+    "command": "CreateEntity",
+    "params": {
+      "type": "charger",
+      "name": "charger_21",
+      "mesh": "assets/model/s_charger.glb",
+      "position": [396.926,254.664,16.096],
+      "scale": [1, 1, 1],
+      "rotation": [0, 0, 0, 0],
+      "direction": [1,0,0],
+      "speed": 0.0,
+      "offset": [0, 0.07, 0]
+    }
+  },
+  {
+    "command": "CreateEntity",
+    "params": {
+      "type": "charger",
+      "name": "charger_22",
+      "mesh": "assets/model/s_charger.glb",
+      "position": [635.327,254.664,-95.990],
+      "scale": [1, 1, 1],
+      "rotation": [0, 0, 0, 0],
+      "direction": [1,0,0],
+      "speed": 0.0,
+      "offset": [0, -0.12, 0]
+    }
+  },
+  {
+    "command": "CreateEntity",
+    "params": {
+      "type": "charger",
+      "name": "charger_23",
+      "mesh": "assets/model/s_charger.glb",
+      "position": [743.965,254.664,162.672],
+      "scale": [1, 1, 1],
+      "rotation": [0, 0, 0, 0],
+      "direction": [1,0,0],
+      "speed": 0.0,
+      "offset": [0, -0.13, 0]
+    }
+  },
+  {
+    "command": "CreateEntity",
+    "params": {
+      "type": "charger",
+      "name": "charger_24",
+      "mesh": "assets/model/s_charger.glb",
+      "position": [571.955,254.664,-294.298],
+      "scale": [1, 1, 1],
+      "rotation": [0, 0, 0, 0],
+      "direction": [1,0,0],
+      "speed": 0.0,
+      "offset": [0, -0.15, 0]
+    }
+  },
+  {
+    "command": "CreateEntity",
+    "params": {
+      "type": "charger",
+      "name": "charger_25",
+      "mesh": "assets/model/s_charger.glb",
+      "position": [170.596,254.664,-679.419],
+      "scale": [1, 1, 1],
+      "rotation": [0, 0, 0, 0],
+      "direction": [1,0,0],
+      "speed": 0.0,
+      "offset": [0, -0.08, 0]
+    }
+  }
+]
